@@ -1,33 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <head>
     <meta charset="UTF-8">    
     <title>HtmlGym</title>
 </head>
 <body>
-    <ul class="menu">
-        <li><a href="chini1.html">Overview</a></li>
-    
-        <li><a href="chini2.html">Tutorial</a></li>
-    
-        <li><a href="chini3.html" class="selected">Topics</a></li>
-    
-        <li><a href="chini4.html">API</a></li>
-    
-        <li><a href="chini5.html">Examples/Tests</a></li>
-    
-        <li><a href="chini6.html">Download</a></li>
-    
-        <li>
-<!--<form class="search" id="searchbox" action="../search.html" method="get">
-<input type="text" name="q" size="18">
-<input type="submit" value="Search">
-<input type="hidden" name="check_keywords" value="yes">
-<input type="hidden" name="area" value="default">
-</form>
-<script type="text/javascript">$('#searchbox').show(0);</script>-->
+    <ul class="nav nav-pills mb-4" id="pillNav" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
         </li>
-    </ul>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1">Contact</button>
+        </li>
+      </ul>
     <h1>Gymnasio</h1>
     <p>test</p>
     <p>test2</p>
